@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>¡Sobre mí! | ZukkoDev</title>
     </head>
     <body>
       <header>
-        Presentación simple
+        <h2>Presentación simple</h1>
       </header>
       <section>
-        <article>
-            <h1>¿Quién soy?</h1>
+        <article class="articulo">
+            <h3>¿Quién soy?</h3>
             <p>
                 Soy un estudiante de Cs. Biológicas y Ing. Informática buscando refinar <br>
                 y expandir sus conociemientos en programación. Soy de Argentina y me emociona <br>
@@ -17,24 +18,24 @@
             </p>
         </article>
 
-        <article>
-            <h1> Sobre esta tarea </h1>
+        <article class="articulo">
+            <h3 > Sobre esta tarea </h3>
             <p> Esta tarea aborda el primer y último trabajo del modulo 3 "HTML" siendo <br>
                 un lenguaje fácil de aprender y que previamente ya trabajé no supuso nin-<br>
                 -gún esfuerzo. Aunque aprendí mucho sobre el comportamiento de los inputs!</p>
         </article>
 
-        <form>
-            <label for="puntos"> ¿Que te pareció esta página? </label>
-            <div>
-             <input type="checkbox" name="puntos" value="checkbox1"> mal
-            </div>
-            <div>
-                <input type="checkbox" name="puntos" value="checkbox1"> bien
-            </div>
-            
-                <input type="checkbox" name="puntos" value="checkbox1"> excelente
-            </div>
+        <h3 class="articulo"> ¿Que te pareció esta página? </h3>
+        <form class="checkbox">
+            <label for="checkbox1">mal
+                <input  type="checkbox" name="checkbox1" value="checkbox1">
+            </label>
+            <label for="checkbox2">bien
+                <input  type="checkbox" name="checkbox2" value="checkbox2">
+            </label>
+             <label for="checkbox3">excelente
+                <input  type="checkbox" name="checkbox3" value="checkbox3">
+            </label>
         </form>
       </section>
     </body>
